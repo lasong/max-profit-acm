@@ -61,7 +61,7 @@ For each test case, the application outputs the maximum possible profit achievab
 - `main.py`: Entry point for the application
 - `input_reader.py`: Handles reading and parsing input files
 - `restructuring_calculator.py`: Contains the core logic for calculating maximum profit
-- `acm.py`: Contains the ACM (Available Capital and Machine) class that manages the state of money and machine ownership at any given time
+- `acm.py`: Contains the ACM (Awesomely Complex Machines) class that manages the state of money and machine ownership at any given time
 - `machine.py`: Defines the Machine class representing individual machines with their properties (day available, price, resale value, and daily profit)
 
 ## Development Notes
