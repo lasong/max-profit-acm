@@ -1,3 +1,5 @@
+from machine import Machine
+
 def read_input(file_path):
   test_cases = []
   with open(file_path, 'r') as file:
@@ -14,7 +16,7 @@ def read_input(file_path):
       for _ in range(num_machines):
         line = file.readline().strip()
         day, price, resale, profit = map(int, line.split())
-        machines.append((day, price, resale, profit))
+        machines.append(Machine(day=day, price=price, resale=resale, profit=profit))
 
       test_cases.append((initial_capital, num_days, machines))
 
