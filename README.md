@@ -66,5 +66,5 @@ For each test case, the application outputs the maximum possible profit achievab
 
 ## Development Notes
 
-This project was completed in 4 hours.
+This project was completed in 4.5 hours.
 
